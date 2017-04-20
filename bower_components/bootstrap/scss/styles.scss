@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  display: none;
+}
+
+/* cover */
+
+#cover {
+  background: #222 url('http://24.media.tumblr.com/tumblr_llrmnuseOJ1qzb5wzo1_1280.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.col-sm-offset-1 {
+  margin-left: 8.333333%;
+}
+
+#cover-caption {
+  width: 100%;
+}
+
+.section-content {
+  padding: 5rem 0;
+}
+
+/*NAV*/
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.nav.justify-content-end {
+  position: absolute;
+  right: 0;
+}
+
+/*MAIN CONTENT*/
+
+#main-content {
+  visibility: hidden;
+  .col {
+    padding: 20px;
+  }
+}
+
+/*slider*/
+
+#carousel {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+/*footer*/
+
+footer {
+  display: none;
+  padding: 20px 0;
+  background: #000;
+  color: #c5c5c5;
+  .quote {
+    font-family: 'Asar', serif;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    .autor {
+      font-family: 'Cedarville Cursive', cursive;
+      font-size: .5em;
+      display: block;
+      text-align: right;
+    }
+  }
+  .logo img {
+    width: 100px;
+  }
+  ul li {
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 17px;
+    color: #f5f5f5;
+  }
+}
